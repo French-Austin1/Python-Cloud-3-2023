@@ -3,7 +3,7 @@
 
 ## What is Python?
 
-Python is a high-level, general-purpose programming language. It is dynamically typed meaning a variable can be assinged an object and the
+Python is a high-level, general-purpose programming language. It is dynamically typed meaning a variable can be assigned an object and the
 type will be assigned at runtime. It has a garbage collector to manage the memory being used and clean up anything that is no longer needed.
 
 Python is both an interpreted and compiled language, it is compiled down to byte-code and interpeted by the Python virtual machine.
