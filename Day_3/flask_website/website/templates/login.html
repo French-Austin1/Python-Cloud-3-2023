@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+{% block title%} Login {% endblock %}
+
+{% block content %}
+</br>
+<div class="card align-items-center">
+    <div class="card-content col-4">
+        <form method="POST">
+            <h3 align="center">Login</h3>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" class="form-control" placeholder="Enter Email">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" class="form-control" placeholder="Enter Password">
+            </br>
+            <div align="left">
+                <a href="/sign-up">need an account?</a>
+            </div>
+            <div align="center">
+            <button class="btn btn-primary" type="submit">Login</button>
+            </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

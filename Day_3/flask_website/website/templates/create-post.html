@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block title%} Create a Post {% endblock %}
+
+{% block content %}
+
+<div align="center" class="text-white display-2" style="padding-top: 1em; padding-bottom: .5em">Make a Post</div>
+
+<form method="POST">
+    <textarea id="text" name="text" class="form-control"></textarea>
+    </br>
+    <div align="center">
+        <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+    </div>
+</form>
+
+{% endblock %}
